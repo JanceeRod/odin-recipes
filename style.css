@@ -1,0 +1,28 @@
+.header {
+    font-family: 'Caprasimo', cursive;
+    font-weight: 500;
+    background-color: bisque;
+}
+
+h1 {
+    color:saddlebrown;
+}
+
+h2 {
+    color: rgb(136, 2, 76);
+}
+
+h3 {
+    color: blue;
+}
+
+body p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+ol li {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+
+
