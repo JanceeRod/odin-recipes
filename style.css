@@ -3,8 +3,21 @@
 }
 
 img {
-    width: 300px;
+    width: 500px;
     vertical-align: top;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+
+}
+
+.view-button {
+    display: inline;
 }
 
 .more-info-section {
@@ -13,12 +26,12 @@ img {
 
 .recipe-card {
     width: 1200px;
-    background-color: antiquewhite;
-    margin: 30px 30px;
+    background-color: rgb(252, 234, 209);
+    margin: 30px auto;
 }
 
 .recipe-content {
     padding: 20px;
     display: inline-block;
-    width: 500px;
+    width: 600px;
 }
