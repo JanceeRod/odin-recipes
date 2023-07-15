@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 300px;
+    vertical-align: top;
+}
+
+.more-info-section {
+    display: inline-block;
+}
+
+.recipe-card {
+    width: 1200px;
+    background-color: antiquewhite;
+    margin: 30px 30px;
+}
+
+.recipe-content {
+    padding: 20px;
+    display: inline-block;
+    width: 500px;
+}
