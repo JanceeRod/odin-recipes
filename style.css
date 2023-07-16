@@ -14,13 +14,19 @@ body {
     /* margin-top: 50px; */
 }
 
-.header.main p {
+.header.main p, .header.recipe-page p {
     margin-top: -10px;
     margin-left: auto;
     margin-right: auto;
 }
 
-img {
+.header.recipe-page {
+    font-family: 'DM Sans', sans-serif;
+    width: 815px;
+    margin: 50px auto;
+}
+
+.recipe-card img {
     width: 300px;
     vertical-align: top;
     border-radius: 20px;
@@ -117,19 +123,29 @@ a {
 }
 
 .img-card {
+    width: fit-content;
     margin: 30px auto;
-    width: 300px;
+
 }
 
+.img-card img {
+    width: 810px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+/* .test {
+    display: block;
+    margin: 40px auto;
+} */
+
 .ingredients-card {
-    /* border: 3px solid rgb(9, 255, 0); */
     border-radius: 20px;
     border: 3px solid black;
     background-color:orange;
     box-shadow: 2px 3px rgb(0, 0, 0); 
-    display: inline-block;
 
-    width: 275px;
+    width: 750px;
     padding: 10px 30px;
     margin: 40px auto;
 
@@ -138,6 +154,29 @@ a {
 
 .ingredients-card ul li {
     height: 30px;
-    width: 270px;
+    margin: 0px 10px 0px 10px;
+    width: 200px;
 }
 
+.directions-card {
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color:orange;
+    box-shadow: 2px 3px rgb(0, 0, 0); 
+
+    width: 750px;
+    padding: 10px 30px;
+    margin: 40px auto;
+    vertical-align: top;
+
+    font-family: 'DM Sans', sans-serif;
+}
+
+.directions-card ol {
+    height: fit-content;
+    margin-top: -5px;
+}
+
+.directions-card ol li {
+    margin-bottom: 15px;
+}
