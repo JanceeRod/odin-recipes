@@ -187,11 +187,11 @@ a {
     margin-bottom: 15px;
 }
 
-a {
+a.home-button {
     text-decoration: none;
     display: block;
     text-align: center;
-    margin: -5px auto;
+    margin: 10px auto 30px auto;
 }
 
 .home-button button {
