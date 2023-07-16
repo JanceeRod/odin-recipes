@@ -26,7 +26,7 @@ h1 {
     padding: 20px;
     padding-right: -100px;
     margin: 40px auto;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); 
+    box-shadow: 2px 3px rgb(0, 0, 0); 
 }
 
 .recipe-content p {
