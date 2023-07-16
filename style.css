@@ -7,6 +7,19 @@ body {
     background-color:whitesmoke
 }
 
+.header.main {
+    font-family: 'DM Sans', sans-serif;
+    width: 1065px;
+    margin: 50px auto;
+    /* margin-top: 50px; */
+}
+
+.header.main p {
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 img {
     width: 300px;
     vertical-align: top;
