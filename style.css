@@ -160,8 +160,8 @@ a {
 }
 
 .ingredients-card.grilled-cheese ul li {
-    margin: 0px 10px;
-    width: 200px;
+    margin: 0px 30px;
+    width: fit-content
 }
 
 .directions-card {
