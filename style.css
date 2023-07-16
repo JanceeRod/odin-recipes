@@ -21,16 +21,8 @@ li {
 
 }
 
-p {
-
-}
-
-.view-button {
-    display: inline;
-}
-
-.more-info-section {
-   
+.recipe-content p {
+    margin-top: -15px;
 }
 
 .recipe-card {
@@ -43,4 +35,12 @@ p {
     padding: 20px;
     display: inline-block;
     width: 600px;
+}
+
+.more-info-section {
+   
+}
+
+.view-button {
+    display: inline;
 }
