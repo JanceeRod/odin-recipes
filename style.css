@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 body {
     /* box-sizing: border-box; */
@@ -118,7 +118,7 @@ a {
 
 .img-card {
     margin: 30px auto;
-    width: fit-content;
+    width: 300px;
 }
 
 .ingredients-card {
