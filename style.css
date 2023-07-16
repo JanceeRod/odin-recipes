@@ -24,8 +24,8 @@ h1 {
     width: 1000px;
     padding: 20px;
     padding-right: -100px;
-    margin: 30px auto;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
+    margin: 40px auto;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); 
 }
 
 .recipe-content p {
@@ -68,13 +68,13 @@ ul li p, ul li h2 {
 }
 a {
     /* border: 3px solid rgb(185, 202, 26); */
+    display: inline-block;
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .recipe-content button {
     /* border: 3px solid rgb(185, 202, 26); */
-    display: inline;
     border-radius: 5px;
     height: 40px;
     width: 150px;
